@@ -66,7 +66,7 @@ header h1 {
   right: 5%;
   bottom: 20px;
   border-radius: 0.25em;
-  box-shadow: 0 0 10px rgba(232, 74, 100, 0.4);
+  box-shadow: 0 0 10px rgba(203, 95, 23, 0.4);
   background: white;
   visibility: hidden;
   /* remove overflow:hidden if you want to create a drop-down menu - but then remember to fix/eliminate the list items animation */
@@ -180,7 +180,7 @@ header h1 {
     top: auto;
     background: white;
     visibility: hidden;
-    box-shadow: 0 0 10px rgba(232, 74, 100, 0.4);
+    box-shadow: 0 0 10px rgba(203, 95, 23, 0.4);
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
     -ms-transform: scale(0);
@@ -234,7 +234,7 @@ header h1 {
   height: 44px;
   background: white;
   border-radius: 0.25em;
-  box-shadow: 0 0 10px rgba(232, 74, 100, 0.4);
+  box-shadow: 0 0 10px rgba(203, 95, 23, 0.4);
   /* image replacement */
   overflow: hidden;
   text-indent: 100%;
@@ -247,7 +247,7 @@ header h1 {
   display: block;
   width: 20px;
   height: 2px;
-  background: #e84a64;
+  background: rgb(203, 95, 23);
   top: 50%;
   margin-top: -1px;
   left: 50%;
@@ -298,7 +298,7 @@ header h1 {
   background: rgba(232, 74, 100, 0);
 }
 .cd-nav-trigger.menu-is-open span::before, .cd-nav-trigger.menu-is-open span::after {
-  background: #e84a64;
+  background: rgb(203, 95, 23);
 }
 .cd-nav-trigger.menu-is-open span::before {
   top: 0;

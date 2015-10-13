@@ -1,13 +1,44 @@
-body{
-	background-color: #fde6e6;
-}
 #cd-logo img{
-	width: 170px;
-	height: 108px;
+	width: 130px;
+	height: auto;
+	margin-top: 0;
+	position: absolute;
+	top: 0;
 }
 .h1-hide{
 	display: none;
 }
-#cd-main-nav ul{
-	list-style: none;
+#acerca{
+	padding-top: 2%;
+}
+#acerca h2{
+	text-transform: uppercase;
+}
+#equipos h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+@media only screen and (max-width: 768px){
+	#cd-logo img{
+		width: 80px;
+		height: auto;
+	}
+}
+footer{
+	color: white;
+	background: rgb(10, 20, 31);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+footer h3{
+	color: white;
+}
+.logo-footer{
+	width: 50%;
+}
+.content-logo{
+	text-align: center;
+}
+footer ul li{
+	display: inline-block;
 }
