@@ -11,4 +11,13 @@ $('.goTop').click(function(){
 	$('body, html').animate({
 		scrollTop: '0px'
 	});
+   
+});
+$( document ).ready(function() {
+    $('.redes').hover(function(){
+		$(this).addClass('animated rotateIn infinite');
+	});
+	$('.redes').mouseleave(function(){
+		$(this).removeClass('animated rotateIn infinite');
+	});
 });
